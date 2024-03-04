@@ -8,6 +8,11 @@
 </head>
 
 <body>
+    <!--The <header> element introduces the first pieces of content on the webpage. The "Horiseon" company logo is special in that it spans two 
+    classes. The Span element is useful here since we're targeting the specific characters "seo" for unique styling in the stylesheet. The nav 
+    element has a class attribute and containing an unordered list of three key subject areas for the main page. Each subject area in the nav 
+    has a hypertext anchor. When the user clicks on any of these subject areas on the nav, then the user is directly taken to that specific part 
+    of the page.-->
     <header> 
         <h1 class="hori">Hori<span class="seo">seo</span>n</h1>
             <nav class="nav-text-right">
@@ -18,7 +23,12 @@
                 </ul>
             </nav>
     </header>
-
+    <!--The <main> element contains the important pieces for why this page exists. Firstly, a large hero-style image is in its own section along 
+    with the alternative text attribute. Secondly, there's a content section that contains three unique articles <article> of content: Search 
+    engine optimization, online reputation management, and social media marketing. They each have their own H2 header, a paragraph of description 
+    text, and a related image with a class and alt text. The last important piece in <main> is the Benefits sidebar which is expressed through the 
+    <aside> element. The <aside> element has it's own class to be stylized. Similarly, there are three sections within this aside element: Lead
+    Generation, Brand Awarness, and Cost Management. They each have their own class, header, icon with alt text, and paragraph description.-->
     <main>
         <section class="hero">
             <img src="./assets/images/digital-marketing-meeting.jpg" alt="A large hero-style image depicting a four person digital marketing meeting"> 
@@ -70,13 +80,15 @@
             </section>
         </aside>
     </main>
-
-    <footer>
+    <!--The <footer> element here is used to describe who made the webpage and to declare their respective copyright. The information in footer 
+    is simple and only needs a header and a paragraph. The footer element has a class attribute of "footer" that is used in the stylsheet to add 
+    style to the footer section and its header text.-->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2024 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
-    
+
 </body>
 </html>
