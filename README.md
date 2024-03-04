@@ -54,7 +54,7 @@ reccomended to install Visual Studio code as well.
    ```
 3. Open the repo 
    ```sh
-   cd Challenge-01-refactor
+   cd Challenge-01-Refactor
    ```
 4. Open with VS Code
    ```sh
