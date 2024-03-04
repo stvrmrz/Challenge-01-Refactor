@@ -22,49 +22,40 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Horiseon Web Page Demo Screen Shot][product-screenshot]](./assets/images/01-html-css-git-homework-demo.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+There is an example webpage that is written without semantic structure. The challenge for this project is to refactor the starter html
+code and rewrite it semantically. In the process of doing this, we also have an oppurtunity to expand on the web page's accessibilty. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Here's why we're doing this:
+* Great refresher on the basics of HTML and how it's stylized with CSS
+* Great refresher on version control, Git, and GitHub
+* Showcase the importance of accessbility 😀
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Please follow these steps if you'd like to clone the repo so you can can see the files yourself
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Please have a GitHub account and set up your SSH key so you may git pull the latest changes to the repository. It's
+reccomended to install Visual Studio code as well.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/stvrmrz/Challenge-01-Refactor
    ```
-3. Install NPM packages
+3. Open the repo 
    ```sh
-   npm install
+   cd Challenge-01-refactor
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Open with VS Code
+   ```sh
+   code .
    ```
 
 <!-- USAGE EXAMPLES -->
@@ -77,15 +68,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] When I view the source code, then I find semantic HTML elements
+- [x] When I view the structure of the HTML elements, then I find that elements follow a logical structure independent of styling and positioning
+- [x] When I view the icon and image elements, then I find accessible alt attributes
+- [x] When I view the heading attributes, then they fall in sequential order
+- [x] When I view the title element, then I find a concise descriptive title
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [closed issues](https://github.com/stvrmrz/Challenge-01-Refactor/issues?q=is%3Aissue+is%3Aclosed) for a full list of features.
 
 <!-- LICENSE -->
 ## License
@@ -95,20 +84,21 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Steve Ramirez - [@stvrmrz](https://twitter.com/stvrmrz) - stevearamirez@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/stvrmrz/Challenge-01-Refactor](https://github.com/stvrmrz/Challenge-01-Refactor)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [othneildrew Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Semantic HTML Web.dev ](https://web.dev/learn/html/semantic-html)
+* [Hero sections — accessible, semantic and performant](https://medium.com/@matt.dawkins/hero-sections-accessible-semantic-and-performant-c04502e16f40)
+* [CSS FAQ MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/CSS_FAQ)
+* [Understanding the Purpose and Usage of the span Element in HTML](https://www.bloomtech.com/programming-questions/what-is-span-in-html#:~:text=The%20element%20is%20often,or%20semantics%20of%20the%20document.)
+* [ID vs. Class CSS: Which Should You Use?](https://www.bestcolleges.com/bootcamps/guides/css-class-vs-id/#:~:text=What%20Is%20Class%3F,They%20are%20not%20unique.)
+* [How to create a full-page hero image (HTML & CSS)](https://codetheweb.blog/fullscreen-image-hero/)
+* [aspect-ratio MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
+* [Stack Overflow](https://stackoverflow.com/questions/43388041/why-is-there-a-few-pixels-of-white-space-margin-at-the-bottom-of-position-absolu)
