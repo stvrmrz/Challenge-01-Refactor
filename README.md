@@ -22,6 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 Example Horiseon web page
+
 ![Horiseon Project Example Web Page](/assets/images/01-html-css-git-homework-demo.png)
 
 
@@ -61,11 +62,9 @@ reccomended to install Visual Studio code as well.
    ```
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Link to Deployed Application
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+_Here is a link to my [Deployed Horiseon Web Page](https://stvrmrz.github.io/Challenge-01-Refactor/)_
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -93,7 +92,7 @@ Project Link: [https://github.com/stvrmrz/Challenge-01-Refactor](https://github.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Here are some of the resources that I used that I want to give credit to:
 
 * [othneildrew Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 * [Semantic HTML Web.dev ](https://web.dev/learn/html/semantic-html)
