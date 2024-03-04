@@ -1,29 +1,30 @@
+/* Universal selector sets box sizing, padding, and margin to all elements in the HTML */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Sets the background color to #d9dcd6 to the <body> element in the HTML */
 body {
     background-color: #d9dcd6;
 }
-
+/* Sets padding, font-family, background color, and text color to the <header> element in the HTML */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Sets display, and font size styling to the "hori" class in the HTML <header> */
 .hori  {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Sets a unique text color to the "seo" class in the HTML <header> */
 .seo {
     color: #d9dcd6;
 }
-
+/* Sets padding, margin, positioning, font-family, and font size to the "nav-text-right" class in the HTML <header> */
 .nav-text-right {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Sets a style type of "none" to the unordered list for use in the HTML */
 ul {
     list-style-type: none;
 }
-
+/* Sets a display and margin to the list items for use in the HTML */
 li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Sets a color and text decoration of "none" to the anchor element for use with the href attribute in the HTML */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Sets the font size to "16px" to the <p> paragraph element for use in the HTML */
 p {
     font-size: 16px;
 }
-
+/* Sets height, width, margin, object fit, object position, and display to the <img> in the "hero" class in HTML <main> */
 .hero img {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     object-position: center;
     display:block;
 }
-
+/* Sets float left position and margin right to the "float-left" class in <img> for use in the "content" <sections> in HTML <main> */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Sets float right position and margin left to the "float-right" class in <img> for use in the "content" <sections> in HTML <main> */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Sets width, display, and margin to the "content" class in <main> */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Sets margin, padding, clear, float, width, height, font-family, and background color to the "benefits" class for use in the <aside> in <main> */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +86,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Sets margin and text color to the "lead-generation" class <section> for use in the <aside> in <main> */
 .lead-generation {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Sets margin and text color to the "brand-awareness" class <section> for use in the <aside> in <main> */
 .brand-awareness {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Sets margin and text color to the "cost-management" class <section> for use in the <aside> in <main> */
 .cost-management {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Sets margin and text align to <h3> of the "lead-generation" class <section> for use in the <aside> in <main> */
 .lead-generation h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Sets margin and text align to <h3> of the "brand-awareness" class <section> for use in the <aside> in <main> */
 .brand-awareness h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Sets margin and text align to <h3> of the "cost-management" class <section> for use in the <aside> in <main> */
 .cost-management h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Sets display, margin and, max width to the <img> of the "lead-generation" class <section> for use in the <aside> in <main> */
 .lead-generation img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Sets display, margin and, max width to the <img> of the "brand-awareness" class <section> for use in the <aside> in <main> */
 .brand-awareness img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Sets display, margin and, max width to the <img> of the "cost-management" class <section> for use in the <aside> in <main> */
 .cost-management img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Sets margin, padding, height, font-family, background color, and text color to the "seach-engine-optimization" class in the <article> section for <content> in <main> */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Sets margin, padding, height, font-family, background color, and text color to the "online-reputation-management" class in the <article> section for <content> in <main> */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Sets margin, padding, height, font-family, background color, and text color to the "social-media-marketing" class in the <article> section for <content> in <main> */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +161,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Sets max height to the <img> of the "seach-engine-optimization" class in the <article> section for <content> in <main> */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* Sets max height to the <img> of the "online-reputation-management" class in the <article> section for <content> in <main> */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* Sets max height to the <img> of the "social-media-marketing" class in the <article> section for <content> in <main> */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Sets margin and font size to <h2> of the "seach-engine-optimization" class in the <article> section for <content> in <main> */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Sets margin and font size to <h2> of the "online-reputation-management" class in the <article> section for <content> in <main> */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Sets margin and font size to <h2> of the "social-media-marketing" class in the <article> section for <content> in <main> */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Sets padding, clear, font family, and text align to the "footer" class in the <footer> section of the <body> */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Sets font size to <h2> of the "footer" class in the <footer> section of the <body> */
 .footer h2 {
     font-size: 20px;
 }
