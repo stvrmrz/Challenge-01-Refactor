@@ -27,13 +27,17 @@
     with the alternative text attribute. Secondly, there's a content section that contains three unique articles <article> of content: Search 
     engine optimization, online reputation management, and social media marketing. They each have their own H2 header, a paragraph of description 
     text, and a related image with a class and alt text. The last important piece in <main> is the Benefits sidebar which is expressed through the 
-    <aside> element. The <aside> element has it's own class to be stylized. Similarly, there are three sections within this aside element: Lead
+    <aside> element. The <aside> element has it's own class to be stylized. Similarly, there are three <sections> within this aside element: Lead
     Generation, Brand Awarness, and Cost Management. They each have their own class, header, icon with alt text, and paragraph description.-->
     <main>
+        <!--This <section> is used to organize the large hero style image within <main>-->
         <section class="hero">
             <img src="./assets/images/digital-marketing-meeting.jpg" alt="A large hero-style image depicting a four person digital marketing meeting"> 
         </section>
+        <!--This <section> is used to organize all of the important content on the webpage within <main>-->
         <section class="content">
+            <!--The <article> element was fitting here since there are three independent pieces of information. Each with their own image, header, 
+            and descriptive text.-->
             <article id="search-engine-optimization" class="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="An image of someone's work desk showcasing their notes on search engine optimization in a notebook">
                 <h2>Search Engine Optimization</h2>
@@ -56,7 +60,9 @@
                 </p>
             </article>
         </section>
+        <!--The <aside> element is used to represent the sidebar of information found in <main>.-->
         <aside class="benefits">
+            <!--This sidebar has three <sections> and they each have their own class, header, icon with alt text, and description paragraph.-->
             <section class="lead-generation">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="Lead generation icon"/>
