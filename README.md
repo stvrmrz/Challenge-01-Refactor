@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Horiseon Web Page Demo Screen Shot][product-screenshot]](./assets/images/01-html-css-git-homework-demo.png)
+![Horiseon Project Example Web Page](01-html-css-git-homework-demo.png)
 
 There is an example webpage that is written without semantic structure. The challenge for this project is to refactor the starter html
 code and rewrite it semantically. In the process of doing this, we also have an oppurtunity to expand on the web page's accessibilty. 
