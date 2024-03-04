@@ -50,7 +50,7 @@ reccomended to install Visual Studio code as well.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/stvrmrz/Challenge-01-Refactor
+   git clone git@github.com:stvrmrz/Challenge-01-Refactor.git
    ```
 3. Open the repo 
    ```sh
